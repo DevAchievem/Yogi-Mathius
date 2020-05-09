@@ -226,6 +226,7 @@ a {
 .bg-main {
   background: url(../images/rsz_buddha.jpg) no-repeat center top;
   background-size: cover;
+  background-attachment: fixed;
     /* height: 900px; */
   width: 100%;
   overflow: hidden;
