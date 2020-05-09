@@ -267,7 +267,18 @@ a {
 .main-subscribe {
   display: flex;
   justify-content: flex-end;
-  margin-right: 100px;
+  padding-right: 200px;
+  padding-top: 75px;
+
+}
+
+.main-subscribe button {
+  background-color: #87A330;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  padding: 15px 30px;
 }
 
 @media (max-width:1000px ) {
@@ -278,7 +289,6 @@ a {
   .title {
     margin-left: 40px;
   }
-
 }
 
 @media(max-width:768px) {
@@ -289,8 +299,11 @@ a {
 
   .title {
     margin-left: 20px;
+    padding-bottom: 40px;
+    width: 70%;
   }
   .title h1 {
+    padding-top: 60px;
     font-size: 40px;
     margin-right: 50px;
   }
@@ -304,11 +317,22 @@ a {
   .main-section {
     height: 500px;
   }
+  .main-subscribe {
+    padding-top: 80px;
+    padding-right: 80px;
+  }
+
 }
+
+
 
 @media (max-width:500px) {
 
-
+  .main-subscribe {
+    padding-top: 30px;
+    padding-right: 0;
+    justify-content: center;
+  }
 }
 /* ------------------------------------------ABOUT PAGE------------------------------------------ */
 
@@ -325,7 +349,6 @@ a {
   max-width: 35%;
   height: 70vh;
   margin-top: 80px;
-  
   border-radius: 15px;
 }
 
@@ -789,6 +812,7 @@ background-size: cover;
   .text {
     font-size: 30px;
     bottom: 25px;
+    margin-top: -50px;
   }
 
   .dot {
@@ -798,7 +822,9 @@ background-size: cover;
 
 @media (max-width: 768px) {
   .text {
-    bottom: 10px;
+    bottom: 6px;
+    font-size: 27px;
+    margin-top: -45px;
   }
 
   .dot {
